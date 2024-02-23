@@ -6,7 +6,7 @@ node
     }
             stage("Run")
             {
-                    sh "python Main.py"
+                    sh "python3 Main.py"
                     sh "java Demo.java"
             }
 }
