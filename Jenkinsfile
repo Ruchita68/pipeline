@@ -14,7 +14,8 @@ Pipeine
             {
                 steps
                 {
-                    sh "java Demo.java"
+                    sh "javac Demo.java"
+                    sh "java Demo"
                     sh "python Main.py"
                 }
             }
